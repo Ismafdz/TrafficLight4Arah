@@ -3,14 +3,14 @@
 Proyek ini adalah simulasi sistem kendali lampu lalu lintas empat persimpangan menggunakan **Arduino Uno**.Proyek ini disusun untuk memenuhi **Tugas 3 Mata Kuliah Pemrograman Sistem Tertanam**, Program Studi Informatika, Universitas Jenderal Soedirman.
 
 ## Deskripsi Proyek
-Sistem ini mengendalikan 12 LED (Merah, Kuning, Hijau) pada empat sisi simpang (Utara, Timur, Selatan, Barat) secara otomatis dan berulang (*looping*).[cite_start]Urutan nyala lampu dirancang searah jarum jam untuk menjamin kelancaran arus lalu lintas dan mencegah konflik antar simpang sesuai standar keselamatan. 
+Sistem ini mengendalikan 12 LED (Merah, Kuning, Hijau) pada empat sisi simpang (Utara, Timur, Selatan, Barat) secara otomatis dan berulang (*looping*). Urutan nyala lampu dirancang searah jarum jam untuk menjamin kelancaran arus lalu lintas dan mencegah konflik antar simpang sesuai standar keselamatan. 
 
 ## Spesifikasi Sistem
-* [cite_start]**Urutan Nyala**: Utara → Timur → Selatan → Barat. 
-* [cite_start]**Durasi Hijau**: 5 Detik. 
-* [cite_start]**Durasi Kuning**: 2 Detik dengan efek **kedip 3 kali**. 
-* [cite_start]**Keamanan**: Kondisi *default* semua merah sebelum satu sisi aktif untuk mencegah tabrakan simulasi. 
-* [cite_start]**Modularitas**: Menggunakan fungsi `aktifkanSimpang()` untuk efisiensi kode. 
+* **Urutan Nyala**: Utara → Timur → Selatan → Barat. 
+* **Durasi Hijau**: 5 Detik. 
+* **Durasi Kuning**: 2 Detik dengan efek **kedip 3 kali**. 
+* **Keamanan**: Kondisi *default* semua merah sebelum satu sisi aktif untuk mencegah tabrakan simulasi. 
+* **Modularitas**: Menggunakan fungsi `aktifkanSimpang()` untuk efisiensi kode. 
 
 ## Rangkaian (Wiring Diagram)
 - **Utara**: Merah (11), Kuning (12), Hijau (13)
